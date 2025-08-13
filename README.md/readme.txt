@@ -8,4 +8,4 @@ Este proyecto está configurado con un **Dev Container** para garantizar un ento
 2. Instala la extensión **Dev Containers** desde el Marketplace.
 3. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/amara-crochet.git
+   git clone https://github.com/tu-usuario/amara_crochet.git
