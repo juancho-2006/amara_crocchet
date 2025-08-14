@@ -8,7 +8,7 @@ Este proyecto está diseñado para que cualquier colaborador pueda comenzar a tr
 
 ### Requisitos previos
 - Tener [Visual Studio Code](https://code.visualstudio.com/) instalado
-- Instalar la extensión **Dev Containers** (antes llamada Remote - Containers)
+- Instalar la extensión **Dev Containers** 
 - Conexión a internet para clonar el repositorio
 
 ---
@@ -18,17 +18,13 @@ Este proyecto está diseñado para que cualquier colaborador pueda comenzar a tr
 1. **Abre VS Code**
 
 2. **Abre la paleta de comandos**
-   - Usa `Ctrl + Shift + P` (Windows/Linux) o `Cmd + Shift + P` (Mac)
+   - Usa `Ctrl + Shift + P` (Windows/Linux) 
 
 3. **Escribe y selecciona:**
 Dev Containers: Clone Repository in Container Volume
 
-Code
-
 4. **Pega esta URL del repositorio**
 https://github.com/juancho-2006/amara_crocchet.git
-
-Code
 
 5. **Espera a que se construya el contenedor**
 - VS Code detectará automáticamente el archivo `.devcontainer/devcontainer.json`
@@ -60,6 +56,3 @@ Si algo no funciona como esperas, puedes:
 - Escribirnos directamente
 - O simplemente preguntar en el canal de colaboración
 
----
-
-¡Gracias por ser parte de esta red creativa! 🌸
