@@ -5,7 +5,7 @@
   background-color: #CBC7B7;
   padding: 40px 40px 20px; /* Puedes ajustar el padding-top si quieres menos espacio */
   text-align: center;
-  background-image: url('img/logo.png/logo.png'); /* Cambia la ruta si es necesario */
+  background-image: url('img/logo.png'); /* Cambia la ruta si es necesario */
   background-repeat: no-repeat;
   background-position: 45px -10px; /* Esquina superior izquierda con un margen de 20px */
   background-size: 150px auto;    /* Tamaño del logo */
@@ -385,6 +385,14 @@ h1 {
 .fas.fa-sign-in-alt {
   font-size: 20px;
 }
-
-
-
+#loginSection {
+  width: 320px;
+  margin-left: auto;
+  margin-right: 80px; /* Ajusta según tu diseño */
+  background: #fffaf7;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  font-family: 'Cormorant Garamond', serif;
+  transition: transform 0.3s ease;
+}
