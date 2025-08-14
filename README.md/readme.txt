@@ -9,3 +9,10 @@ Este proyecto está configurado con un **Dev Container** para garantizar un ento
 3. Clona este repositorio:
    ```bash
    git clone https://github.com/tu-usuario/amara_crochet.git
+## 🔍 Verificación del entorno con Nmap
+
+Antes de comenzar, puedes ejecutar este escaneo para validar que tus servicios estén activos:
+
+```bash
+nmap -p 3000,5432,6379 localhost
+
