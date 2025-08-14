@@ -1,0 +1,390 @@
+/* Estilos generales */
+
+/* Cabecera */
+ header {
+  background-color: #CBC7B7;
+  padding: 40px 40px 20px; /* Puedes ajustar el padding-top si quieres menos espacio */
+  text-align: center;
+  background-image: url('img/logo.png/logo.png'); /* Cambia la ruta si es necesario */
+  background-repeat: no-repeat;
+  background-position: 45px -10px; /* Esquina superior izquierda con un margen de 20px */
+  background-size: 150px auto;    /* Tamaño del logo */
+}
+
+/* Título principal */
+h1 {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.0em;
+  letter-spacing: 2px;
+  
+}
+/* Galería de productos */
+.galeria {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+}
+
+/* Tarjeta de producto */
+.producto {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 16px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0);
+  transition: transform 0.2s;
+}
+.producto:hover {
+  transform: translateY(-5px) scale(1.03);
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Carrito de compras */
+#carrito {
+  background-color: #f9f9f9;
+  border-top: 2px solid #f4c2c2;
+  padding: 20px;
+  margin: 20px;
+}
+
+#lista-carrito li {
+  margin-bottom: 5px;
+}
+button {
+  background-color: #6e8481;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.2s;
+}
+button:hover {
+  background-color: #4e635f;
+}
+.menu-superior ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px 0;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.menu-superior a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: color 0.2s;
+}
+
+.menu-superior a:hover {
+  color: #00000067;
+}
+/* ...otros estilos... */
+
+.etiquetas {
+  margin-bottom: 8px;
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+
+.etiqueta {
+  background: #f4c2c2;
+  color: #6e8481;
+  font-size: 0.85em;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+#catalogo {
+  display: none;
+}
+/* Estilo para la portada de inicio */
+#portada {
+  background-image: url('img/portada.png/portada.png'); /* Cambia a tu imagen */
+  background-size: cover;
+  background-position: center;
+  height: 800px; /* Altura de la portada */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 135vh; /* Ocupa toda la altura de la ventana */
+}
+
+.portada-contenido {
+  background-color: rgba(0, 0, 0, 0.368); /* Fondo semitransparente */
+  padding: 40px;
+  border-radius: 16px;
+}
+
+#btnEmpezar {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+#btnCarritoFijo {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: hsl(172, 9%, 47%);
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  z-index: 1000;
+  cursor: pointer;
+}
+.carrito-lateral {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 320px;
+  height: 100%;
+  background: white;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 999;
+}
+
+.carrito-lateral.visible {
+  transform: translateX(0);
+}
+
+
+.amara-blanco {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  margin-top: 65px; /* Esto baja el cuadro */
+  text-align: center;
+  font-family: 'Cinzel Decorative', cursive;
+  color: #444;
+  border-top: 1px solid #e0e0e0;
+}
+
+
+.contenedor-texto {
+  max-width: 600px; /* antes era 800px */
+  margin: 0 auto;
+  padding:10px;
+}
+
+
+.contenedor-texto h2 {
+  font-family: 'Allura';
+  font-size: 2.7em;
+  color: #000000;
+  font-weight: normal;
+}
+
+
+.contenedor-texto p {
+  font-size: 1.05em;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+.selector-talla, .selector-color {
+  width: 100%;
+  padding: 6px 10px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  border: 1px solid #d8cfc4;
+  border-radius: 6px;
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #fffaf7;
+  color: #5a3e36;
+  transition: border-color 0.3s ease;
+}
+
+.selector-talla:hover, .selector-color:hover {
+  border-color: #bfa89f;
+}
+
+label {
+  font-size: 0.9rem;
+  color: #7a5c4b;
+  display: block;
+  margin-top: 8px;
+}
+.color-options {
+  display: flex;
+  gap: 6px;
+  margin: 6px 0 12px;
+}
+
+.color-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 20%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: transform 0.2s ease, border-color 0.3s ease;
+}
+
+.color-circle:hover {
+  transform: scale(1.1);
+  border-color: #aaa;
+}
+
+.color-circle.selected {
+  border-color: #5a3e36;
+}
+.logo-portada {
+  height: 80px; /* Ajusta según lo que se vea mejor */
+  margin-bottom: 20px;
+  border-radius: 45px; /* Ajusta el valor para más o menos redondeo */
+  image-rendering: auto;
+  object-fit: contain;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: aparecerLogo 1.2s ease-out forwards;
+}
+@keyframes aparecerLogo {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 600px) {
+  .logo-portada {
+    height: 40px;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1 {
+  animation: fadeInUp 2s ease-out;
+}
+@keyframes pulse {
+  100% { color: #000000; }
+  23% { color: #ffffff; }
+}
+
+h1 {
+  animation: pulse 7s infinite;
+}
+.subapartado {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.toggle-btn {
+  background-color:hsl(172, 9%, 47%);
+  color: #4f3e58;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1em;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #9db880a1;
+}
+
+.contenido-subapartado {
+  display: none;
+  padding: 12px 16px;
+  background-color: #fffaf7;
+  border-left: 4px solid #d8cfc4;
+  border-radius: 0 0 8px 8px;
+  animation: fadeInUp 0.4s ease-out;
+}
+#portada {
+  position: relative;
+  height: 140vh; /* pantalla completa */
+  overflow: hidden;
+}
+
+.hero-carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* debajo del contenido */
+}
+
+.hero-carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity s ease-in-out;
+}
+
+.hero-carousel img.active {
+  opacity: 1;
+}
+
+.portada-contenido {
+  position: absolute; /* para centrar con respecto a #portada */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; /* encima del carrusel */
+  text-align: center;
+  color: white;
+
+  /* Caja compacta con sombra de fondo */
+  background: rgba(0, 0, 0, 0.26);
+  padding: 15px 25px;
+  border-radius: 12px;
+  max-width: 500px; /* ancho máximo para que no se estire */
+}
+.menu-superior li a {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 1rem;
+  color: #ffffff;
+  transition: transform 0.3s ease;
+}
+
+.menu-superior li a:hover {
+  transform: scale(1.05);
+  color: #a86c5c; /* tono cálido que combine con Amara */
+}
+
+.fas.fa-sign-in-alt {
+  font-size: 20px;
+}
+
+
+

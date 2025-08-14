@@ -1,0 +1,16 @@
+{
+  "name": "Web Project",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-14",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "ritwickdey.liveserver"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install"
+}
