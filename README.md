@@ -46,11 +46,14 @@ https://github.com/juancho-2006/amara_crocchet.git
 ✅ Requisitos
 Tener Git instalado en tu sistema
 
-Acceso a internet
-
 📥 Comando para clonar
 
 git clone https://github.com/juancho-2006/amara_crocchet.git
+Para abrirlo en VS Code con Dev Container (desde terminal)
+Después de clonar, puedes abrir el proyecto directamente en VS Code:
+comando:
+cd amara_crocchet
+code .
 
 ## ❤️ Filosofía del proyecto
 
