@@ -1,0 +1,26 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/node_modules": true
+    },
+    "editor.formatOnSave": true,
+    "eslint.enable": true,
+    "liveServer.settings.port": 5500
+  },
+  "extensions": {
+    "recommendations": [
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "formulahendry.auto-close-tag",
+      "formulahendry.auto-rename-tag",
+      "ritwickdey.liveserver"
+    ]
+  }
+}
