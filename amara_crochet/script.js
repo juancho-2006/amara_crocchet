@@ -18,13 +18,13 @@ const productos = [
   {
     nombre: "Amapola",
     precio: 45000,
-    imagen: "img/Amapola.png/amapola.png",
+    imagen: "img/Amapola.png",
     etiquetas: ["Nuevo", " Hecho a mano"]
   },
   {
     nombre: "Marfil",
     precio: 30000,
-    imagen: "img/Marfil.png/marfil.png",
+    imagen: "img/Marfil.png",
     etiquetas: ["Elegante", " Hecho a mano"]
   }
 ];
