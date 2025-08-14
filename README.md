@@ -42,6 +42,15 @@ https://github.com/juancho-2006/amara_crocchet.git
 - Archivos listos para comenzar a diseñar y desarrollar
 
 ---
+🖥️ Clonar desde la terminal o CMD
+✅ Requisitos
+Tener Git instalado en tu sistema
+
+Acceso a internet
+
+📥 Comando para clonar
+
+git clone https://github.com/juancho-2006/amara_crocchet.git
 
 ## ❤️ Filosofía del proyecto
 
